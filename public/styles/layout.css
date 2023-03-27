@@ -18,6 +18,59 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  text-align: center;
+}
+
+#tweet-text {
+
+  border: none;
+  border-bottom: solid 2px;
+  background-color: #f4f1ec;
+  width: 500px;
+  text-align: center;
+
+}
+
+#submit {
+  background-color:#4056A1;
+  color: aliceblue;
+  border: none;
+  margin-left: 0%;
+}
+
+.counter {
+  margin-left:30%;
+}
+
+#allTweets {
+  border: solid 1px;
+  background-color: transparent;
+  margin: 5%;
+}
+
+.headerShow {
+  margin: 1% 5% 1% 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.account {
+  color: rgb(175, 175, 175);
+}
+
+.footerShow {
+  margin: 5% 5% 2% 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerP {
+  font-size: 17px;
+  color: black;
+  margin-top: 0%;
+}
+.icons {
+  width: 10%;
 }
 
 /*

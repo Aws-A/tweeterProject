@@ -1,0 +1,50 @@
+nav {
+  height: 120px;
+  color: #FFFFFF;
+  background-color: #4056A1;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.5em ;
+  padding-right: 1.5em;
+  align-items: center;
+}
+
+.logo {
+  font-family: Bungee;
+  /* margin-right: 1.5em; */
+}
+
+.specific {
+  /* margin-right: 1.5em; */
+  font-size: 20px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+}
+
+.wr {
+  font-weight: bold;
+}
+
+.arrow {
+  font-family: sans-serif;
+  color: red;
+  margin-left: 1300px;
+  margin-top: 20px;
+}
+
+.topHeader {
+  background-color:gold;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  height: 400px;
+  width: 100%;
+}
+
+main {
+  width: 90%;
+  text-align: center;
+}
