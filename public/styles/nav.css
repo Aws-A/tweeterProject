@@ -1,5 +1,6 @@
 nav {
   height: 120px;
+  width: 100%;
   color: #FFFFFF;
   background-color: #4056A1;
   display: flex;
@@ -7,6 +8,8 @@ nav {
   padding-left: 1.5em ;
   padding-right: 1.5em;
   align-items: center;
+  position: fixed;
+  top: 0;
 }
 
 .logo {
@@ -38,12 +41,18 @@ nav {
 .topHeader {
   background-color:gold;
   text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   height: 400px;
-  width: 100%;
 }
 
 main {
   text-align: center;
+}
+
+@media only screen and (max-width: 960px) { 
+  nav {
+    background-color: gold;
+    position:relative;
+  }
 }

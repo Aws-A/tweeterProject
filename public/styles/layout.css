@@ -20,14 +20,35 @@ body {
   font-size: 24px;
 }
 
+.wholeBody {
+  display: flex;
+}
+
+.topHeader {
+  margin: 17% 2% 2% 3%;
+  height: 400px;
+  width: 30%;
+}
+
+.container {
+  margin-top: 15%;
+  width: 65%;
+}
+
 #tweet-text {
 
   border: none;
   border-bottom: solid 2px;
   background-color: #f4f1ec;
-  width: 500px;
-  text-align: center;
+  width: 80%;
+  text-align: left;
+}
 
+.interactive {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 10% 0% 10%;
 }
 
 #submit {
@@ -37,17 +58,27 @@ body {
   margin-left: 0%;
 }
 
+.error-message {
+  margin-top: 2%;
+  color: red;
+}
+
+hr {
+  width: 80%;
+  border-top: solid 2px;
+}
+
 .counter {
   margin-left:30%;
 }
 
-#allTweets {
+.containerTweets {
   border: solid 2px;
   background-color: transparent;
   margin: 5%;
 }
 
-#allTweets:hover {
+.containerTweets:hover {
   box-shadow: 2px 2px 2px #545149;
 }
 
@@ -89,3 +120,21 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+/* Tablet: minimum width of 768px to maximum width of 1024px */
+@media only screen and (max-width: 960px) {
+  /* Write Tablet only CSS here */
+  .wholeBody {
+    display: inline;
+  }
+  .topHeader {
+    margin: 0% 0%;
+    width: 100%;
+  }
+  .container {
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 90%;
+  }
+}
+

@@ -3,7 +3,7 @@
   <head>
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
 
@@ -20,7 +20,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- App JS -->
-    <script type="text/javascript" src="/scripts/client.js"></script>
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
@@ -36,55 +35,36 @@
         
     </nav>
 
-    <header class="topHeader">
-      <div>
+    <div class="wholeBody">
+      <header class="topHeader">
+
           <img src="/images/profile-hex.png"> 
-      </div>
-      <br>
-      <div>
-          <h2> Aws Al-Raheem </Al-Raheem></h2>
-      </div>
-  </header>
+
+        <br>
+
+          <h2> Amy Mansell </h2>
+
+      </header>
 
     <!-- Page-specific (main) content here -->
-    <main class="container">
-      <section class="new-tweet">
-        <h2>Compose Tweet</h2>
-        <form id="form">
-          <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
-          <div>
-            <button type="submit" id="submit">Tweet</button>
-            <output name="counter" class="counter" for="tweet-text" style="color: black"> 140 </output>
-          </div>
-        </form>
-      <section id="allTweets">
-        <article>
-          <header class="headerShow">
-            <div class="profile">
-              <img src="https://i.imgur.com/nlhLi3I.png" style="height: 80%; padding-right: 10%"> 
-              <p> Aws </p>
-            </div>
-            <P class="account"> @awsius</P>
-          </header>
+      <main class="container">
+        <section class="new-tweet">
+          <div class="error-message"></div>
+            <h2>Compose Tweet</h2>
+            <form id="form">
+              <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+              <div class="interactive">
+                <button type="submit" id="submit">Tweet</button>
+                <output name="counter" class="counter" for="tweet-text" style="color: black"> 140 </output>
+              </div>
+            </form>
+            <section id="allTweets">
 
-          <p style="text-align: left; margin-left: 10%;"> This is amazing day to do some designs </p>
+            </section>
 
-          <hr style="width: 80%; border-top: solid 2px;">
-
-          <footer class="footerShow">
-            <p class="footerP"> Just Now  </p>
-            <div class="icons"> 
-              <i class="fa-solid fa-flag footIc"></i> 
-              <i class="fa-solid fa-retweet footIc"></i>
-              <i class="fa-solid fa-heart footIc"></i>
-            </div>
-          </footer>
-
-        </article>
-
-      </section>
-
-      </section>
-    </main>
+        </section>
+      </main>
+    </div>
+    <script type="text/javascript" src="/scripts/client.js"></script>
   </body>
 </html>
