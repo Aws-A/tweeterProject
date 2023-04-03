@@ -18,7 +18,7 @@ This repository is the starter code for the project: Students will fork and clon
 - Node 5.10.x or above
 
 ## Screenshots
-[https://github.com/Aws-star/tweeterProject/blob/master/docs/tweet-page.png]
-[https://github.com/Aws-star/tweeterProject/blob/master/docs/responsive.png]
-[https://github.com/Aws-star/tweeterProject/blob/master/docs/error-longtweet.png]
-[https://github.com/Aws-star/tweeterProject/blob/master/docs/error-emptytweet.png]
+(https://github.com/Aws-star/tweeterProject/blob/master/docs/tweet-page.png)
+(https://github.com/Aws-star/tweeterProject/blob/master/docs/responsive.png)
+(https://github.com/Aws-star/tweeterProject/blob/master/docs/error-longtweet.png)
+(https://github.com/Aws-star/tweeterProject/blob/master/docs/error-emptytweet.png)
